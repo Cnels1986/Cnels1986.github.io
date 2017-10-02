@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  padding: 10px 20px 5px 20px;
+}
+
+body{
+	background-color: #e5efff;
+}
+
+.title{
+	margin: 0 10px 10px 10px;
+	padding: 20px;
+  font-size: 30px;
+}
+
+.jindex{
+	padding: 30px;
+}
+
+.popit{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3;
+}
+
+.entryContainer{
+	width: 80%;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.dateHeader{
+  margin: 0 10px 10px 10px;
+	padding: 20px;
+  font-size: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.eheader{
+	height: 70px;
+	background-color: grey;
+}
+
+.logo{
+	float: right;
+	display: inline-block;
+	font-size: 22px;
+	padding: 20px;
+}
+
+.linkstyle{
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 1s, font-size 1s;
+  color: black;
+  padding: 10px;
+}
+
+.linkstyle:hover{
+  color: #009dff;
+  font-size: 24px;
+}
