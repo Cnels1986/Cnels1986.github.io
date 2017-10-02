@@ -45,6 +45,12 @@ p{
 
 body{
 	background-color: #e5efff;
+	width: 1000px;
+}
+
+.container{
+	padding: 30px;
+	background-color: white;
 }
 
 .title{
