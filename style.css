@@ -78,6 +78,11 @@ body{
 	margin: 0 auto;
 }
 
+.entryContainer h2{
+	font-size: 26px;
+	text-decoration: underline;å
+}
+
 .dateHeader{
   margin: 0 10px 10px 10px;
 	padding: 20px;
