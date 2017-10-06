@@ -44,13 +44,17 @@ p{
 }
 
 body{
-	background-color: #e5efff;
-	width: 1000px;
+	background-color: #e2efff;
 }
 
 .container{
-	padding: 30px;
 	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.containermargin{
+	padding: 10px 40px 40px 40px;
 }
 
 .title{
@@ -85,6 +89,8 @@ body{
 .eheader{
 	height: 70px;
 	background-color: grey;
+	box-shadow: 0px 5px 5px;
+	border-radius: 5px;
 }
 
 .logo{
@@ -105,4 +111,9 @@ body{
 .linkstyle:hover{
   color: #009dff;
   font-size: 24px;
+	text-decoration: underline;
+}
+
+.back{
+	padding: 20px;
 }

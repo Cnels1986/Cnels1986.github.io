@@ -8,48 +8,52 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
   </head>
   <body>
-    <header class="eheader">
-      <h3 class="dateHeader">September 27, 2017</h3>
-      <p class="popit logo">CSET</p>
-    </header>
-    <div class="entryContainer">
-      <p class="popit">
-        Today we discussed the various different properties that we all research and presented. These properties ranged from simple text formatting like text-align, columns, and text-decoration, to the move involved and interesting properties like transition and animation. I have a feeling that these two properties will be used a lot in my site navigation and links in future projects. The property blend-mode also have some potential to have enhance backgrounds of future projects.
-      </p>
-  	  <p class="popit">
-        When researching my property (transition) this morning, I discovered how to use the box-shadow, but invert it so it shows on the inside of the element inside of the outside. This along with the transition property using the pseudo-class – active will let me create more interactive buttons. To invert the box shadow, the code is simply:
-      </p>
+    <div class="container">
+      <div class="containermargin">
+        <header class="eheader">
+          <h3 class="dateHeader">September 27, 2017</h3>
+          <p class="popit logo">CSET</p>
+        </header>
+        <div class="entryContainer">
+          <p class="popit">
+            Today we discussed the various different properties that we all research and presented. These properties ranged from simple text formatting like text-align, columns, and text-decoration, to the move involved and interesting properties like transition and animation. I have a feeling that these two properties will be used a lot in my site navigation and links in future projects. The property blend-mode also have some potential to have enhance backgrounds of future projects.
+          </p>
+      	  <p class="popit">
+            When researching my property (transition) this morning, I discovered how to use the box-shadow, but invert it so it shows on the inside of the element inside of the outside. This along with the transition property using the pseudo-class – active will let me create more interactive buttons. To invert the box shadow, the code is simply:
+          </p>
 
-      <blockquote>
-        <pre>
-  box-shadow: 0px 0px 0px 20px black inset;
-        </pre>
-      </blockquote>
+          <blockquote>
+            <pre>
+      box-shadow: 0px 0px 0px 20px black inset;
+            </pre>
+          </blockquote>
 
-      <p class="popit">
-        This will create a smooth box shadow within the element, much like a border but is does not increase the height and width of the element. Then using the code:
-      </p>
+          <p class="popit">
+            This will create a smooth box shadow within the element, much like a border but is does not increase the height and width of the element. Then using the code:
+          </p>
 
-      <blockquote>
-        <pre>
-  .elementClass.{
-  transition: box-shadow 1s;
-  }
+          <blockquote>
+            <pre>
+      .elementClass.{
+      transition: box-shadow 1s;
+      }
 
-  .elementClass:active{
-  box-shadow: 0px 0px 0px 20px black inset;
-  }
-        </pre>
-      </blockquote>
+      .elementClass:active{
+      box-shadow: 0px 0px 0px 20px black inset;
+      }
+            </pre>
+          </blockquote>
 
-      <p class="popit">
-        This creates the tranistion when the element is clicked on. In addition, I found a way to make the code stand out in html, which I’ve been using in the previous examples. I currently do not know if this is the best way or correct way to do it, but I will find out in the coming days and correct my actions if needed.
-      </p>
-      <p class="popit">
-        Finally, we have also learned about the CSS reset which I will be implementing into all my future projects and making it a force of habit for front-end delopment.
-      </p>
+          <p class="popit">
+            This creates the tranistion when the element is clicked on. In addition, I found a way to make the code stand out in html, which I’ve been using in the previous examples. I currently do not know if this is the best way or correct way to do it, but I will find out in the coming days and correct my actions if needed.
+          </p>
+          <p class="popit">
+            Finally, we have also learned about the CSS reset which I will be implementing into all my future projects and making it a force of habit for front-end delopment.
+          </p>
+        </div>
+        <a href="../index.html" class="linkstyle back">Back</a>
+      </div>
     </div>
-    <a href="../index.html" class="linkstyle">Back</a>
   </body>
 
 </html>
