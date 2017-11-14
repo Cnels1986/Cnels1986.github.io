@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>November 12, 2017</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="containermargin">
+        <header class="eheader">
+          <h3 class="dateHeader">November 12, 2017</h3>
+          <p class="popit logo">CSET</p>
+        </header>
+        <div class="entryContainer">
+          <p class="popit">This week we continued to work on our big project, the Central Pennsylvania Open Source Conference one. The html and the css have been coming easily for us (Colin and I) but I have been struggling with the JavaScript. I have spent that last two days working to get the JavaScript to work, mainly the accordion section on the Speakers and Sessions page and also the sticky sidebar menu that becomes fixed during scrolling and stops before the end of the page.</p>
+
+          <p class="popit">For the accordion section I was able to use the and manipulate the W3 example to get it to work for our page. The example they had hides all the content of the section, but I was able to hide everything but the session name and the arrow button. This was achieved by many trails and errors on where I need to place the accordion section, but after setting it below the session title and the arrow allows me to keep them showing. If I have time I would like to create JavaScript to switch the arrow button to an up arrow once its closed and switch it back again when the section is opened.
+          </p>
+
+          <p class="popit">The sticky sidebar was more challenging though. The way I figured I would do it is by creating JavaScript to calculate the distance between the sidebar and the top as well as finding the distance between the top to where I want sidebar to stop (which I will add just an extra div with a class to achieve that). From there I will somehow find out how to dynamically determine the page scroll so when the page scrolls down to the distance where the sidebar starts, it will add a new class that sets position: sticky. I will also need to figure out when the page scrolls to the stopping point and then remove that sticky position, making the sidebar stop scrolling. I am also planning on implementing some of the same code I used for the burger menu (that we read for homework), so that once the sidebar “unsticks” it will transition to the left off page, making it look like it disappears.
+          </p>
+
+          <p class="popit">This will be a long night, hopefully we can get this project done in the next day or two and be able to troubleshoot and fix things that we may have missed.
+          </p>
+        </div>
+        <a href="../index.html" class="linkstyle back">Back</a>
+      </div>
+    </div>
+  </body>
+
+</html>
