@@ -82,17 +82,22 @@ function changePage(color){
     var colorNumber = document.querySelector('input[name = "color"]:checked').value;
     // console.log(colorNumber);
     if(colorNumber === "color1"){
-      $(".sandHeader").animate({backgroundColor: hex}, 500);
-      $(".sandFooter").animate({backgroundColor: hex}, 500);
+      // $(".sandHeader").animate({backgroundColor: hex}, 500);
+      // $(".sandFooter").animate({backgroundColor: hex}, 500);
+      $(".sandHeader").css({"background-color": hex});
+      $(".sandFooter").css({"background-color": hex});
     }
     else if(colorNumber === "color2"){
-      $(".changeLabels").animate({color: hex}, 350);
+      // $(".changeLabels").animate({color: hex}, 350);
+      $(".changeLabels").css({"color": hex});
     }
     else if(colorNumber === "color3"){
-      $(".changeText").animate({color: hex}, 350);
+      // $(".changeText").animate({color: hex}, 350);
+      $(".changeText").css({"color": hex});
     }
     else{
-      $(".contSandbox").animate({backgroundColor: hex}, 500);
+      // $(".contSandbox").animate({backgroundColor: hex}, 500);
+      $(".contSandbox").css({"background-color": hex});
     }
   }
 
